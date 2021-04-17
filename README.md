@@ -1,6 +1,6 @@
 # Resume
 <Still needs editing>
-This repository is a showcase for the projects that I am currently working on. The majority of my focus over the last few months has been spent on the development of the code in DRLib (Deep Reinforcement Library). I have been fascinated by the power of using an Evolutionary model to train artififical neural networks by using only random numbers. I first came across this algorithm when working on flappy. 
+This repository is a showcase for the projects that I am currently working on. The majority of my focus over the last few months has been spent learning about and on the development of the code in DRLib (Deep Reinforcement Library). I have been fascinated by the power of using an Evolutionary model to train artififical neural networks by using only random numbers. I first came across this algorithm when working on flappy. 
 
 In flappy, I was trying to figure out how to train neural networks to play a version of Flappy Bird. The issue I was having was that there was not a set correct answer for any given state. To explain what I mean further, I will assume that you have some understanding of how the iphone game Flappy Bird works. For almost any point that the bird is at on screen, it could jump or not jump and still survive given that all of its following actions where correct. There are definetley some places that it can be where jumping or not jumping means certain death as well. ***Not done
 
