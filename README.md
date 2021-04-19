@@ -1,4 +1,3 @@
-#Resume
 This repository is intended to showcase the projects on which I am
 currently working. Most of my focus in recent months has been on
 developing my coding skills in DRLip (Deep Reinforcement Library)
