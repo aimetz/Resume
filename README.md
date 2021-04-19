@@ -17,7 +17,8 @@ jumping or not jumping can mean certain death for the bird, so I…
 
 WheelPole uses the same algorithm as Flappy, but I have found that the
 coding is much better for what I am interested in doing. I started
-working on this project after I fully grasped the tenants of OOP. I am
+working on this project after I fully grasped the tenants of Objected
+Programing. I am
 currently using wheelPole for a project in my Electrical Engineering
 course. I am building an inverted pendulum controlled by a reaction
 wheel. (Example:
