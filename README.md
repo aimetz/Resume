@@ -1,9 +1,37 @@
-# Resume
-<Still needs editing>
-This repository is a showcase for the projects that I am currently working on. The majority of my focus over the last few months has been spent learning about and on the development of the code in DRLib (Deep Reinforcement Library). I have been fascinated by the power of using an Evolutionary model to train artififical neural networks by using only random numbers. I first came across this algorithm when working on flappy. 
+#Resume
+This repository is intended to showcase the projects on which I am
+currently working. Most of my focus in recent months has been on
+developing my coding skills in DRLip (Deep Reinforcement Library)
+because I am fascinated by the power and possibilities of using an
+evolutionary model to train artificial neural networks using only random
+numbers. I have recently begun developing additional skills in wheelPole
+as well.
 
-In flappy, I was trying to figure out how to train neural networks to play a version of Flappy Bird. The issue I was having was that there was not a set correct answer for any given state. To explain what I mean further, I will assume that you have some understanding of how the iphone game Flappy Bird works. For almost any point that the bird is at on screen, it could jump or not jump and still survive given that all of its following actions where correct. There are definetley some places that it can be where jumping or not jumping means certain death as well. ***Not done
+I first came across the DRLib algorithm when working on a project in
+Flappy. I was trying to train neural networks to play a version of
+Flappy Bird (an iPhone game), but I could not figure how to get the
+networks to render a set correct answer for any given state. For most
+points where the bird is located on screen, the user can elect to either
+“jump” or “not jump” the bird and still survive (assuming all its
+following actions are correct), but there are also some places where
+jumping or not jumping can mean certain death for the bird, so I…
 
-wheelPole uses the exact same algorithm as flappy, however the code is much better because unlike flappy, this project was started after I fully grasped the tenents of OOP. I am working on a project for an Electrical Engineering class this quarter where I am planning to build an inverted pendulum contolled by a reaction wheel. (example: https://www.youtube.com/watch?v=xlzi8Q5G42k&ab_channel=GraysonG ). However rather than use a PID controller to determine motor output I want to use machine learning to figure out how to control it. wheelPole is the simiulation for this training. It is still slightly simplified because the motors are able to output a constant torque at all times which is not quite accurate, however the core of the physics are spot on and it sucessfully learns quite fast.
+WheelPole uses the same algorithm as Flappy, but I have found that the
+coding is much better for what I am interested in doing. I started
+working on this project after I fully grasped the tenants of OOP. I am
+currently using wheelPole for a project in my Electrical Engineering
+course. I am building an inverted pendulum controlled by a reaction
+wheel. (Example:
+https://www.youtube.com/watch?v=xlzi8Q5G42k&ab_channel=GraysonG), but
+rather than use a PID controller to determine motor output I plan to use
+machine learning to control it. WheelPole definitely provides a useful
+simulation for this training, although it is slightly similified since
+the motors are able to output a constant torque at all times, which is
+not quite accurate. Nonetheless, the core of the physics is spot on and
+the machine learning seems to be both quick and accurate.
 
-I was advised to remove the projects from my school folder as being posted on a public forum could allow future students to plagerize my work. I did leave one project that I am pretty happy with from my Data Science Class as it was a more open ended prompt.
+NOTE: I was advised to remove most class projects from my school folder
+since it is being posted on a public forum, which could allow other
+students to plagiarize my work. I decided to heed this advice, but I
+have left one project in the folder from my Data Science Class because
+it was for an open-ended prompt.
