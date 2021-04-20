@@ -6,26 +6,22 @@ evolutionary model to train artificial neural networks using only random
 numbers. I have recently begun developing additional skills in wheelPole
 as well.
 
-I first came across the DRLib algorithm when working on a project in
+I first came across using reinforcement learning when working on the project in
 Flappy. I was trying to train neural networks to play a version of
-Flappy Bird (an iPhone game), but I could not figure how to get the
-networks to render a set correct answer for any given state. For most
-points where the bird is located on screen, the user can elect to either
-“jump” or “not jump” the bird and still survive (assuming all its
-following actions are correct), but there are also some places where
-jumping or not jumping can mean certain death for the bird, so I…
+Flappy Bird (an iPhone game), the problem was that there was not a set correct
+answer for any one point, more of just a behavior in general that I wanted to
+acheive. Using a model of iterating between selection and mutation I found that
+I was able to get the exact behavior I wanted only by rewarding it for happenening.
 
-WheelPole uses the same algorithm as Flappy, but I have found that the
-coding is much better for what I am interested in doing. I started
-working on this project after I fully grasped the tenants of Objected
-Programing. I am
-currently using wheelPole for a project in my Electrical Engineering
+WheelPole uses the same algorithm as Flappy, but uses the code from
+DRLib. I am currently using wheelPole for a project in my Electrical Engineering
 course. I am building an inverted pendulum controlled by a reaction
 wheel. (Example:
 https://www.youtube.com/watch?v=xlzi8Q5G42k&ab_channel=GraysonG), but
 rather than use a PID controller to determine motor output I plan to use
 machine learning to control it. WheelPole definitely provides a useful
-simulation for this training, although it is slightly similified since
+simulation for this training, although it is still a work in progress and
+it is a slightly similified version of reality since
 the motors are able to output a constant torque at all times, which is
 not quite accurate. Nonetheless, the core of the physics is spot on and
 the machine learning seems to be both quick and accurate.
