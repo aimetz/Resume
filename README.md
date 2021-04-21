@@ -1,10 +1,13 @@
 This repository is intended to showcase the projects on which I am
 currently working. Most of my focus in recent months has been on
-developing my coding skills in DRLip (Deep Reinforcement Library)
+developing my coding skills in DRLib (Deep Reinforcement Library). 
 because I am fascinated by the power and possibilities of using an
 evolutionary model to train artificial neural networks using only random
 numbers. I have recently begun developing additional skills in wheelPole
 as well.
+
+## If you just see one thing on here check out this video https://youtu.be/l8ELb89swis
+## of it in action.
 
 I first came across using reinforcement learning when working on the project in
 Flappy. I was trying to train neural networks to play a version of
@@ -20,8 +23,7 @@ wheel. (Example built by someone else:
 https://www.youtube.com/watch?v=xlzi8Q5G42k&ab_channel=GraysonG), but
 rather than use a PID controller to determine motor output I plan to use
 machine learning to control it. WheelPole definitely provides a useful
-simulation for this training (A video of the output from training: https://youtu.be/l8ELb89swis), 
-although it is still a work in progress and
+simulation for this training, although it is still a work in progress and
 it is a slightly similified version of reality since
 the motors are able to output a constant torque at all times, which is
 not quite accurate. Nonetheless, the core of the physics is spot on and
