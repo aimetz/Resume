@@ -16,11 +16,12 @@ I was able to get the exact behavior I wanted only by rewarding it for happeneni
 WheelPole uses the same algorithm as Flappy, but uses the code from
 DRLib. I am currently using wheelPole for a project in my Electrical Engineering
 course. I am building an inverted pendulum controlled by a reaction
-wheel. (Example:
+wheel. (Example built by someone else:
 https://www.youtube.com/watch?v=xlzi8Q5G42k&ab_channel=GraysonG), but
 rather than use a PID controller to determine motor output I plan to use
 machine learning to control it. WheelPole definitely provides a useful
-simulation for this training, although it is still a work in progress and
+simulation for this training (A video of the output from training: https://youtu.be/l8ELb89swis), 
+although it is still a work in progress and
 it is a slightly similified version of reality since
 the motors are able to output a constant torque at all times, which is
 not quite accurate. Nonetheless, the core of the physics is spot on and
