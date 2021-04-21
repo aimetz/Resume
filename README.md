@@ -6,8 +6,8 @@ evolutionary model to train artificial neural networks using only random
 numbers. I have recently begun developing additional skills in wheelPole
 as well.
 
-## If you just see one thing on here check out this video https://youtu.be/l8ELb89swis
-## of it in action.
+# If you just see one thing on here check out this video https://youtu.be/l8ELb89swis
+# of it in action.
 
 I first came across using reinforcement learning when working on the project in
 Flappy. I was trying to train neural networks to play a version of
