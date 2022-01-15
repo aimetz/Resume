@@ -1,6 +1,6 @@
 This repository is intended to showcase the projects on which I am
 currently working. Most of my focus in recent months has been on
-developing my coding skills in DRLib (Deep Reinforcement Library). 
+developing my coding skills in DRLib (Deep Reinforcement Library)**now MDL**. 
 because I am fascinated by the power and possibilities of using an
 evolutionary model to train artificial neural networks using only random
 numbers. I have recently begun developing additional skills in wheelPole
